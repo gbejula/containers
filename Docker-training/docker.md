@@ -1,5 +1,23 @@
 # Docker Learnings
 
+Docker image: it is the package with all the dependencies, application package and configuration packages. It is the artifact that is moveable.
+
+Docker container: it is when the image is pulled on a local computer and it started so that all the applicationsin it is started and running.
+
+Docker helps to run diferent versions of the same application in a local machine without conflict.
+
+Docker virtualize in the application layer while virtual machine virtualize in the application and OS kernel.
+
+Characteristics of Docker
+
+> > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+
+Size: Docker images are the smaller than that of virtual machine.
+
+Speed: Dcoker container start and run much faster.
+
+Compatibility.
+
 `Docker ps` - This is to show all the running containers
 
 `Docker images` - This shows all the running images
@@ -30,3 +48,9 @@ To check the list of docker networks
 To add a port to docker
 
 docker run -p <port number> --name <name for container>
+
+To get logs
+
+docker logs <container id or name>
+
+docker exec -it <container id or name>
