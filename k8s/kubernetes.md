@@ -105,3 +105,11 @@ k delete deployment nginx-deployment
 k delete service nginx-deployment
 
 Now we create node application and configure a web server to respond to hostname of the server
+
+To create a service
+
+kubectl expose deployment name --port=3000
+
+To scale deployments
+
+kubectl scale deployment name --replicas=required_number
