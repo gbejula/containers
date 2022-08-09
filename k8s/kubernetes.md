@@ -113,3 +113,11 @@ kubectl expose deployment name --port=3000
 To scale deployments
 
 kubectl scale deployment name --replicas=required_number
+
+To set image for new deployment
+
+kubectl set image deployment name
+
+To rollout new replicas
+
+kubectl rollout status deployment <name of deployed pod>
