@@ -121,3 +121,13 @@ kubectl set image deployment name
 To rollout new replicas
 
 kubectl rollout status deployment <name of deployed pod>
+
+To delete all service and deployments, use
+
+```
+k delete all --all
+```
+
+To use the declarative approach
+
+we need to create a .yaml file
