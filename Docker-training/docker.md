@@ -2,7 +2,7 @@
 
 Docker image: it is the package with all the dependencies, application package and configuration packages. It is the artifact that is moveable.
 
-Docker container: it is when the image is pulled on a local computer and it started so that all the applicationsin it is started and running.
+Docker container: it is when the image is pulled on a local computer and it started so that all the applications in it is started and running.
 
 Docker helps to run diferent versions of the same application in a local machine without conflict.
 
@@ -74,3 +74,17 @@ docker exec -it <container id or name>
 - Docker compose allows for multicontainer applications.
 
 - Docker swarm to utilize multiple machines running Docker.
+
+> > > > > > > > > > > > > > > > > > > > >
+
+## What is Docker container
+
+A Docker container is a loosely isolated environment running within a host machine's kernel that allows us to run application-specific code.
+
+- Docker start <id or name> is used to start the docker container.
+
+- Docker logs allows you to see any information that the container is printing out while it runs.
+
+- To name a docker container: use <--name>
+
+- To make the container interactive and text editor, we use <-it>
