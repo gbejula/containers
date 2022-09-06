@@ -54,3 +54,23 @@ To get logs
 docker logs <container id or name>
 
 docker exec -it <container id or name>
+
+# Docker Notes.
+
+## Why Docker
+
+> > > > > > > > > > > > > > > > > > > >
+
+- it is a lighweight approach than virtual machines to isolate coding and project environments.
+
+- It is portable
+
+- It helps achieve continuous integration and deployment for development operations.
+
+## Main features
+
+- Create containers and images.
+
+- Docker compose allows for multicontainer applications.
+
+- Docker swarm to utilize multiple machines running Docker.
