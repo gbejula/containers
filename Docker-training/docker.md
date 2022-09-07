@@ -88,3 +88,7 @@ A Docker container is a loosely isolated environment running within a host machi
 - To name a docker container: use <--name>
 
 - To make the container interactive and text editor, we use <-it>
+
+## DOCKERFILE
+
+- A dockerfile is a text document with various commands that assemble to build a container.
