@@ -92,3 +92,11 @@ A Docker container is a loosely isolated environment running within a host machi
 ## DOCKERFILE
 
 - A dockerfile is a text document with various commands that assemble to build a container.
+
+## Features of Docker Compuse
+
+- Private network for the compose application
+
+- Cache the services
+
+- Multi-container isolated environments
